@@ -26,6 +26,17 @@ public class Main {
             }
 
         }
+
+        //
+        System.out.println();
+        Sky sky = new Sky();
+        sky.addTraffic(new Duck());
+        sky.addTraffic(new Pigeon());
+        sky.addTraffic(new Aeroplane());
+
+        sky.checkTraffic();
+
+
     }
 
 }
