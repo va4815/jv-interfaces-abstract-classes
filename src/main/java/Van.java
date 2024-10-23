@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Van extends Vehicle {
 
     @Override
     public void move() {
