@@ -1,8 +1,8 @@
-public class Road extends Environment<Vehicle> {
+public class Road extends Environment<Movable> {
 
     @Override
     public void checkTraffic() {
-        for (Vehicle f : this.traffic) {
+        for (Movable f : this.traffic) {
             f.move();
         }
     }

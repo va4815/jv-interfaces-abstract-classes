@@ -1,3 +1,3 @@
-public abstract class Vehicle {
-    public abstract void move();
+public abstract class Vehicle implements Movable {
+
 }

@@ -6,4 +6,5 @@ public class Water extends Environment<Swimmable> {
             f.swim();
         }
     }
+
 }
