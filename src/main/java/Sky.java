@@ -4,13 +4,9 @@ public class Sky extends Environment<Flyable> {
 
     @Override
     public void checkTraffic() {
-        System.out.println(this.getClass().getSimpleName() + " is flying!");
+        for (Flyable f : this.traffic) {
+            f.fly();
+        }
     }
 
-    @Override
-    public void addTraffic(Flyable traffic) {
-        this.traffic.forEach(p -> {
-            System.out.println(this.getClass().getSimpleName() + " is flying!");
-        });
-    }
 }
